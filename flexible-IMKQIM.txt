@@ -1,0 +1,45 @@
+; 自由双拼
+; QIM双拼配置文件
+; 以;开头的行为注释行
+; [SM] 区定义声母的映射关系
+; [YM] 区定义韵母的映射关系
+; [ZM] 定义单韵母发音ß的拼音所使用声母的字符，只支持prefix键值
+;      如果和韵母一样（比如自然码里，单韵母发音时，aa, ee, oo等），可以定义为$字符，
+;      其他的定义prefix键值，比如紫光和微软都以字母o开头，即可定义prefix=o；
+;
+[SM]
+ch=i
+sh=v
+zh=u
+
+[YM]
+iu=p
+ang=w
+ei=f
+in=s
+uan=g
+iao=j
+iang=l
+ian=y
+ie=;
+ong=r
+iong=r
+ing=d
+uai=s
+ai=t
+ve=k
+ue=k
+eng=h
+an=n
+uo=o
+ou=z
+ao=x
+ia=c
+ua=c
+ui=k
+un=b
+uang=l
+en=m
+
+[ZM]
+prefix=$
