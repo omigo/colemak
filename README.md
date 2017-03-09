@@ -25,6 +25,10 @@ AutoHotKey 工具，把标准的Qwerty键盘布局映射成Colemak键盘布局�
 
 * Andriod/iOS Baidu 输入法 flexible 双拼配置
 
+
+!!! 先使用 https://github.com/arstd/BaiduIME-Skin-Colemak-Geek 这个皮肤
+
+
     [flexible-BaiduIME.txt](flexible-BaiduIME.txt)
 
     ![flexible-BaiduIME.png](flexible-BaiduIME.png)
